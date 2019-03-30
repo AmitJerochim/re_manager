@@ -1,0 +1,2 @@
+use testdb;
+ALTER TABLE rented ADD FOREIGN KEY (tenant_id) REFERENCES tenants(id) ON DELETE CASCADE ON UPDATE CASCADE;

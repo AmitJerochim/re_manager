@@ -1,0 +1,35 @@
+// const chai = require("chai");
+// const assert= chai.assert;
+// const should =chai.should;
+// const path=require("path");
+// const Promise = require("bluebird");
+// const renameDocumentsPath= require("../services/renameDocumentsPath.js");
+// var mkdirp= require("mkdirp");
+// var shell= require("shelljs");
+
+//     describe("renameDocumentsPath", function(){
+        
+//     var initPath1=path.join(__dirname ,"..", "documents", "bka", "1_TestStreet_13", "1_Whg_Nr_3", "1_bobik old", "2017");
+//     var initPath2=path.join(__dirname ,"..", "documents", "bka", "1_TestStreet_13", "1_Whg_Nr_3", "1_bobik old", "2018");
+//     var initPath3=path.join(__dirname ,"..", "documents", "bka", "1_TestStreet_13", "1_Whg_Nr_3", "1_bobik old", "2019");
+    
+    
+//     var oldPath=path.join("1_TestStreet_13", "1_Whg_Nr_3", "1_bobik old");
+//     var newPath=path.join("1_TestStreet_12", "1_Whg_Nr_1", "1_bobik test");
+    
+//         it("renameDocumentsPath should return type undefined", function(done){
+//             Promise.all([mkdirp(initPath1),mkdirp(initPath2),mkdirp(initPath3)])
+//             //
+//             .then(()=>{ Promise.all([shell.touch(initPath1+"/test.txt"), shell.touch(initPath2+"/test.txt"), shell.touch(initPath3+"/test.txt")])
+//                 .then(()=>{ Promise.resolve(1)
+//                     .then((bla)=>{
+//                         assert.typeOf(bla,"number");
+//                     }).finally(done);
+//             });
+//         });
+            
+//         });
+            
+            
+    
+//     });

@@ -1,0 +1,33 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "re-manager",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "unittest": "mocha test/unittests/*", 
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Amit Jerochim",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mkdirp": "^0.5.1",
+    "mysql": "^2.16.0",
+    "pdfkit": "^0.8.3",
+    "promise": "^8.0.2",
+    "pug": "^2.0.3",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mock-fs": "^4.7.0",
+    "sinon": "^7.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+get apartments/:id wirft fehler, wenn mieter nicht existiert
+
+Heizkosten lassen sich ändern, werden aber unwiderruflich überschrieben. Heizkosten lassen sich nicht einsehen.
+
+Keine Bestätigung, wenn heizkosten hinzugefügt werden.
+
+Server stürzt ab, wenn man eine abrechnung erstellen möchte und heizkosten nicht vorliegen
+
+Mieter austragen geht nicht.
+
+Fremdabrechnung aus add costs und createAccountingLetter entfernen, prüfen, dass es keine auswirkung auf db hat.
+
+datei mit Textbausteine bauen und strings durch variablen substituieren
+/ressources/lang/de/createAccountingLetter.js
+
+in tabelle tenants Name durch Anrede, Vorname, Nachname substituiert werden.
+Zusätzlich IBAN und Bank des Mieters speichern.
+Zusätzlich einen zweitmieter einbauen
+
+Umbenennung des Mieters funktioniert immernoch nicht vernünftig
+
+Formular für Heizkosten nimmt nur punkte, keine kommas an
+
+alle formulare auf typ="text" +pattern umstellen
+
+im formular update/create building input feld für except business-area hinzugefügt, aber nicht geprüft ob es funktioniert
+
+Seitenzahl hinzufügen
+
+in add_costs jquery ajax request anmachen wenn select ausgewählt wird
